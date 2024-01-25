@@ -1,0 +1,9 @@
+{
+    "type": "firefox",
+    "request": "launch",
+    "name": "Launch My Firefox",
+    "url": "https://myurl",
+    "webRoot": "${workspaceFolder}",
+    "timeout": 90000,
+    "tmpDir": "/some/folder/of/yours/with/write/perms"
+},
