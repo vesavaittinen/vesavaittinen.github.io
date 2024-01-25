@@ -1,0 +1,7 @@
+body {
+    width: 50%;
+    margin: auto;
+}
+fieldset {
+    background-color: rgb(171, 144, 110);
+}
