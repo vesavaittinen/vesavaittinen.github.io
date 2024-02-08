@@ -4,6 +4,10 @@ body {
     font-size: 12px;
     background-color:burlywood;
 }
+p {
+    font-family: "Arial", sans-serif;
+}
+
 fieldset {
     background-color: rgb(171, 144, 110);
 }
