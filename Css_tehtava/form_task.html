@@ -7,26 +7,31 @@
 </head>
 <body>
     <div class="wrapperdiv">
-        <fieldset>
-            <legend>Contact information:</legend>
-                <div class="elementdiv">
-                    <label for="firstname">First name:</label>
-                    <label for="lastname">Last name:</label>
-                    <label for="email">Email:</label><br>
-                    <label for="telephone">Telephone:</label>
+        <div class="secondarywrapperdiv">
+            <fieldset>
+                <legend>Contact information:</legend>
+                <div class="thirdwrapperdiv">
+                    <div class="elementdiv">
+                        <label for="firstname">First name:</label>
+                        <label for="lastname">Last name:</label>
+                        <label for="email">Email:</label>
+                        <label for="telephone">Telephone:</label>
+                    </div>
+                    <div class="elementdiv">
+                        <input type="text" id="lastname" name="lastname">
+                        <input type="text" id="email" name="email">
+                        <input type="text" id="telephone" name="telephone">
+                        <input type="text" id="firstname" name="firstname">
+                    </div>
+                    <div class="elementdiv">
+                        <label for="contactmethod">Preferred contact method:</label>
+                        <label for="email">Email</label><input type="checkbox" id="email" name="email">
+                        <label for="telephone">Telephone</label><input type="checkbox" id="telephone" name="telephone">
+                    </div>
                 </div>
-                <div class="elementdiv">
-                    <input type="text" id="lastname" name="lastname">
-                    <input type="text" id="email" name="email">
-                    <input type="text" id="telephone" name="telephone">
-                    <input type="text" id="firstname" name="firstname">
-                </div>
-                <div class="elementdiv">
-                    <label for="contactmethod">Preferred contact method:</label>
-                    <input type="checkbox" id="email" name="email"><label for="email">Email</label>
-                    <input type="checkbox" id="telephone" name="telephone"><label for="telephone">Telephone</label>
-                </div>
-                </fieldset>
+            </fieldset>
+        </div>
+        <div class="secondarywrapperdiv">
                 <fieldset>
                     <legend>Feedback:</legend>
                         <div class="elementdiv">
@@ -41,8 +46,8 @@
                             <input type="file" id="fileattach" name="fileattach">
                             <input type="submit" value="Send">
                         </div>
-                        </div>
                 </fieldset>
+        </div>
     </div>
 </body>
 
