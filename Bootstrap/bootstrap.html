@@ -8,129 +8,113 @@
     <link href="css/bootstrap.css" rel="stylesheet">
  </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navigation</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Html learning page</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Links to html-pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://vesavaittinen.github.io/Css_tehtava/form_task.html">Form task</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://vesavaittinen.github.io/Css_tehtava/index.html">My school courses</a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row align-items-start justify-content-center">
+        <div class="col-md-auto">
+          <div class="card text-bg-dark" style="max-width: 20rem;">
+            <div class="card-header">HTML</div>
+            <div class="card-body">
+              <h5 class="card-title">&lt;HTML&gt;</h5>
+              <p class="card-text">Html is an essential tag, which tells the web browser that we're about to insert some html here.</p>
+            </div>
           </div>
         </div>
-      </nav>
-    <div class="col-12 col-sm6">
-        <table border="2" bgcolor="black">
-         <tr>
-            <td>
-                <table border="2" width="1000" cellpadding="5" cellspacing="5" bgcolor="white">
-                    <tr>
-                        <td>
-                            <p>Kurssi</p>
-                        </td>
-                        <td>
-                            <p>Sisältö</p>
-                        </td>
-                        <td>
-                            <p>Opintopisteet</p>
-                        </td>
-                        <td>
-                            <p>Arvosana</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>AL00CD64-3021 Taloushallinto</p>
-                        </td>
-                        <td>
-                            <p>Opiskelija osaa</p>
-                                <ul>
-                                    <li>kuvata taloushallinnon keskeisimmät tehtävät ja prosessit osana yritystoimintaa.</li>
-                                    <li>tehdä yrityksen kirjanpitoa ja laatia tuloslaskelman ja taseen.</li>
-                                    <li>arvonlisäverotuksen toimintaperiaatteet.</li>
-                                    <li>lukea yrityksen tilinpäätöstä.</li>
-                                </ul>
-                        </td>
-                        <td>
-                            <p>5 op</p>
-                        </td>
-                        <td>
-                            <p>5/5</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>AL00CD61 Asiakkuudet ja markkinointi</p>
-                        </td>
-                        <td>
-                            <p>Opiskelija osaa</p>
-                                <ul>
-                                    <li>tunnistaa asiakaslähtöisen liiketoiminnan.</li>
-                                    <li>käyttää markkinoinnin ja asiakaslähtöisen liiketoiminnan keskeisiä käsitteitä.</li>
-                                    <li>tunnistaa markkinointi- ja myyntiprosessin vaiheet. </li>
-                                </ul>
-                        </td>
-                        <td>
-                            <p>5 op</p>
-                        </td>
-                        <td>
-                            <p>5/5</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>KS00BT59 Asiantuntijan viestintätaidot</p>
-                        </td>
-                        <td>
-                            <p>Opiskelija osaa</p>
-                                <ul>
-                                    <li>eritellä ja arvioida viestintäosaamistaan sekä antaa, vastaanottaa ja hyödyntää
-                                         palautetta viestintätaitojensa kehittämisessä</li>
-                                    <li>toimia tavoitteellisesti, tarkoituksenmukaisesti ja taitavasti työelämän ja oman
-                                         ammattialansa viestintä- ja vuorovaikutustilanteissa (teksti-, esiintymis- ja ryhmäviestintätaidot)</li>
-                                    <li>ottaa viestinnässään huomioon vastaanottajan/vuorovaikutuskumppanin, tilanteen ja alansa vaatimukset</li>
-                                    <li>viestiä jäsentyneesti, ymmärrettävästi ja vakuuttavasti</li>
-                                    <li>kehittää suomen kielen ja viestinnän taitojaan osana omaa asiantuntijuuttaan ja ammattitaitoaan
-                                         (halu ja motivaatio viestintätaitojen jatkuvaan oppimiseen ja kehittämiseen).</li>
-                                </ul>
-                        </td>
-                        <td>
-                            <p>4 op</p>
-                        </td>
-                        <td>
-                            <p>4/5</p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+        <div class="col-md-auto">
+          <div class="card text-bg-dark" style="max-width: 20rem;">
+            <div class="card-header">HEAD</div>
+            <div class="card-body">
+              <h5 class="card-title">&lt;HEAD&gt;</h5>
+              <p class="card-text">Head tells the browser some essential information like in what address is the css style and javascript files. There's also the character set and some meta-information.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card text-bg-dark" style="max-width: 20rem;">
+            <div class="card-header">BODY</div>
+            <div class="card-body">
+              <h5 class="card-title">&lt;BODY&gt;</h5>
+              <p class="card-text">Body contains the actual seen web page and it's properties.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-start justify-content-center">
+        <div class="col-md-auto">
+          <div class="card text-bg-dark" style="max-width: 20rem;">
+            <div class="card-header">P</div>
+            <div class="card-body">
+              <h5 class="card-title">&lt;P&gt;</h5>
+              <p class="card-text">P stands for "paragraph" and can be used to insert text into html page.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card text-bg-dark" style="max-width: 20rem;">
+            <div class="card-header">IMG</div>
+            <div class="card-body">
+              <h5 class="card-title">&lt;IMG&gt;</h5>
+              <p class="card-text">With IMG images, pictures or photographs can be shown on a web page.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card text-bg-dark" style="max-width: 20rem;">
+            <div class="card-header">A</div>
+            <div class="card-body">
+              <h5 class="card-title">&lt;A&gt;</h5>
+              <p class="card-text">A makes a link to somewhere, either to an external content or a local one.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card text-bg-dark" style="max-width: 20rem;">
+            <div class="card-header">BR</div>
+            <div class="card-body">
+              <h5 class="card-title">&lt;BR&gt;</h5>
+              <p class="card-text">BR creates a line break on a webpage.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="card text-bg-dark" style="max-width: 20rem;">
+            <div class="card-header">H1</div>
+            <div class="card-body">
+              <h5 class="card-title">&lt;H1&gt;</h5>
+              <p class="card-text">H1 is used to make a big heading text.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
-</html>
+</html> 
